@@ -1,0 +1,42 @@
+{
+  "train": "2026-Q4",
+  "public_launch_at": "2026-11-14T09:00:00Z",
+  "packages": [
+    {
+      "package": "iris-instruct-v3",
+      "cycle": "2026-Q4",
+      "channel": "public",
+      "stage": "final"
+    },
+    {
+      "package": "sable-instruct-v2",
+      "cycle": "2026-Q3",
+      "channel": "public",
+      "stage": "carried-over"
+    },
+    {
+      "package": "halcyon-dpo-v1",
+      "cycle": "2026-Q4",
+      "channel": "public",
+      "stage": "final"
+    },
+    {
+      "package": "quartz-pref-v1",
+      "cycle": "2026-Q3",
+      "channel": "public",
+      "stage": "carried-over"
+    },
+    {
+      "package": "amber-embed-v1",
+      "cycle": "2026-Q1",
+      "channel": "public",
+      "stage": "shipped"
+    },
+    {
+      "package": "ember-embed-ablation",
+      "cycle": "2026-Q4",
+      "channel": "internal",
+      "stage": "final"
+    }
+  ]
+}

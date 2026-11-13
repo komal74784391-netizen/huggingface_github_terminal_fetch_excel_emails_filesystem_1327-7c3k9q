@@ -1,0 +1,24 @@
+{
+  "package": "iris-instruct-v3",
+  "cycle": "2026-Q4",
+  "channel": "public",
+  "raw_sources": [
+    {
+      "type": "dataset",
+      "repo_id": "wikimedia/wikipedia",
+      "usage": "background passages used to ground the responses"
+    },
+    {
+      "type": "dataset",
+      "repo_id": "HuggingFaceFW/fineweb-edu",
+      "usage": "raw instruction prompts sampled from the educational web subset"
+    }
+  ],
+  "synthesis_models": [
+    {
+      "type": "model",
+      "repo_id": "deepseek-ai/DeepSeek-V2.5",
+      "usage": "generated all natural-language responses"
+    }
+  ]
+}

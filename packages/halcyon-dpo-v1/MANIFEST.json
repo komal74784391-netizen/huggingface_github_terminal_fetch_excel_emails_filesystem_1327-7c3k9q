@@ -1,0 +1,19 @@
+{
+  "package": "halcyon-dpo-v1",
+  "cycle": "2026-Q4",
+  "channel": "public",
+  "raw_sources": [
+    {
+      "type": "dataset",
+      "repo_id": "HuggingFaceH4/ultrachat_200k",
+      "usage": "raw multi-turn prompts adopted for the preference mix"
+    }
+  ],
+  "synthesis_models": [
+    {
+      "type": "model",
+      "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+      "usage": "generated candidate responses for preference ranking"
+    }
+  ]
+}

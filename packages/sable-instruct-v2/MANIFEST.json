@@ -1,0 +1,24 @@
+{
+  "package": "sable-instruct-v2",
+  "cycle": "2026-Q3",
+  "channel": "public",
+  "raw_sources": [
+    {
+      "type": "dataset",
+      "repo_id": "tatsu-lab/alpaca",
+      "usage": "additional instruction seeds adopted from the self-instruct corpus"
+    },
+    {
+      "type": "dataset",
+      "repo_id": "databricks/databricks-dolly-15k",
+      "usage": "raw instruction/response examples adopted for the SFT mix"
+    }
+  ],
+  "synthesis_models": [
+    {
+      "type": "model",
+      "repo_id": "deepseek-ai/DeepSeek-V2.5",
+      "usage": "regenerated the assistant responses"
+    }
+  ]
+}

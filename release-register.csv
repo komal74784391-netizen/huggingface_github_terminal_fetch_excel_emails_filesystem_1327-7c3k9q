@@ -1,0 +1,8 @@
+package,cycle,channel,status,license,recorded_by,notes
+tessera-sft-v2,2026-Q1,public,released,cc-by-4.0,j.okafor,initial public release
+amber-embed-v1,2026-Q1,public,released,odc-by,j.okafor,initial public release
+kestrel-chat-v1,2026-Q2,public,released,apache-2.0,j.okafor,initial public release
+sable-instruct-v2,2026-Q3,public,pending,,,carried over from the spring catalogue; upstream license presumed
+quartz-pref-v1,2026-Q3,public,released,odc-by,j.okafor,initial public release
+halcyon-dpo-v1,2026-Q4,public,released,mit,j.okafor,initial public release
+iris-instruct-v3,2026-Q4,public,pending,,,final package; landed 2026-11-12

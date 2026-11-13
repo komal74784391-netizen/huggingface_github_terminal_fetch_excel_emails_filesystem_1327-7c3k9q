@@ -1,0 +1,13 @@
+{
+  "package": "ember-embed-ablation",
+  "cycle": "2026-Q4",
+  "channel": "internal",
+  "raw_sources": [
+    {
+      "type": "dataset",
+      "repo_id": "Salesforce/wikitext",
+      "usage": "internal ablation passages"
+    }
+  ],
+  "synthesis_models": []
+}
